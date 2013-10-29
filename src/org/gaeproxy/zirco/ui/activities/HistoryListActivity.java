@@ -32,7 +32,7 @@ import android.view.View;
 import android.widget.ExpandableListAdapter;
 import android.widget.ExpandableListView;
 import android.widget.ExpandableListView.ExpandableListContextMenuInfo;
-import org.gaeproxy.R;
+import org.yan.gaeproxy.R;
 import org.gaeproxy.zirco.controllers.Controller;
 import org.gaeproxy.zirco.model.adapters.HistoryExpandableListAdapter;
 import org.gaeproxy.zirco.model.items.HistoryItem;

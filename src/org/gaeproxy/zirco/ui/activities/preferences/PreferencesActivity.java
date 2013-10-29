@@ -33,7 +33,7 @@ import android.preference.PreferenceCategory;
 import android.preference.PreferenceManager;
 import android.webkit.CookieManager;
 import java.util.List;
-import org.gaeproxy.R;
+import org.yan.gaeproxy.R;
 import org.gaeproxy.zirco.controllers.Controller;
 import org.gaeproxy.zirco.providers.BookmarksProviderWrapper;
 import org.gaeproxy.zirco.ui.activities.AboutActivity;

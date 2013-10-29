@@ -20,7 +20,7 @@ import android.os.Bundle;
 import android.preference.Preference;
 import android.preference.Preference.OnPreferenceClickListener;
 import android.preference.PreferenceActivity;
-import org.gaeproxy.R;
+import org.yan.gaeproxy.R;
 import org.gaeproxy.zirco.utils.Constants;
 
 public class WeavePreferencesActivity extends PreferenceActivity {

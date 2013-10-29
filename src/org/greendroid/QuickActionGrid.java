@@ -28,7 +28,7 @@ import android.widget.BaseAdapter;
 import android.widget.GridView;
 import android.widget.TextView;
 import java.util.List;
-import org.gaeproxy.R;
+import org.yan.gaeproxy.R;
 
 /**
  * A {@link QuickActionGrid} is an implementation of a {@link QuickActionWidget}

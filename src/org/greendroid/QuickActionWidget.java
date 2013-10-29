@@ -28,7 +28,7 @@ import android.view.WindowManager;
 import android.widget.PopupWindow;
 import java.util.ArrayList;
 import java.util.List;
-import org.gaeproxy.R;
+import org.yan.gaeproxy.R;
 
 /**
  * Abstraction of a {@link QuickAction} wrapper. A QuickActionWidget is

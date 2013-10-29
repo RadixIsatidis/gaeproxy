@@ -75,7 +75,7 @@ import android.widget.ViewFlipper;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
-import org.gaeproxy.R;
+import org.yan.gaeproxy.R;
 import org.gaeproxy.zirco.controllers.Controller;
 import org.gaeproxy.zirco.events.EventConstants;
 import org.gaeproxy.zirco.events.EventController;

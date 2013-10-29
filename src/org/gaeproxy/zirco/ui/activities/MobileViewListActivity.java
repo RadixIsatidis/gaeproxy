@@ -35,7 +35,7 @@ import android.widget.AdapterView.AdapterContextMenuInfo;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
-import org.gaeproxy.R;
+import org.yan.gaeproxy.R;
 import org.gaeproxy.zirco.controllers.Controller;
 import org.gaeproxy.zirco.model.DbAdapter;
 import org.gaeproxy.zirco.utils.ApplicationUtils;

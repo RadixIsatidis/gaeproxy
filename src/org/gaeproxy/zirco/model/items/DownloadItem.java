@@ -21,7 +21,7 @@ import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import java.util.Random;
-import org.gaeproxy.R;
+import org.yan.gaeproxy.R;
 import org.gaeproxy.zirco.events.EventConstants;
 import org.gaeproxy.zirco.events.EventController;
 import org.gaeproxy.zirco.ui.activities.DownloadsListActivity;

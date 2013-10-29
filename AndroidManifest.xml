@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.gaeproxy"
+    package="org.yan.gaeproxy"
     android:installLocation="auto"
     android:versionCode="168"
     android:versionName="0.30.3" >
@@ -30,13 +30,13 @@
         android:targetSdkVersion="18" />
 
     <application
-        android:name=".GAEProxyApplication"
+        android:name="org.gaeproxy.GAEProxyApplication"
         android:hardwareAccelerated="true"
         android:icon="@drawable/icon"
         android:label="@string/app_name"
         android:theme="@android:style/Theme.Holo.Light" >
         <activity
-            android:name=".GAEProxyActivity"
+            android:name="org.gaeproxy.GAEProxyActivity"
             android:label="@string/app_name"
             android:launchMode="singleTask"
             android:taskAffinity=".GAEProxy" >
@@ -50,20 +50,20 @@
             android:name="com.google.ads.AdActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
         <activity
-            android:name=".ProxiedAppActivity"
+            android:name="org.gaeproxy.ProxiedAppActivity"
             android:label="@string/app_name" />
 
         <service
-            android:name=".GAEProxyService"
+            android:name="org.gaeproxy.GAEProxyService"
             android:enabled="true" />
-        <service android:name=".GAEProxyUpdateService" />
+        <service android:name="org.gaeproxy.GAEProxyUpdateService" />
 
-        <receiver android:name=".GAEProxyBootReceiver" >
+        <receiver android:name="org.gaeproxy.GAEProxyBootReceiver" >
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
-        <receiver android:name=".GAEProxyPackageReceiver" >
+        <receiver android:name="org.gaeproxy.GAEProxyPackageReceiver" >
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
 
@@ -76,7 +76,7 @@
                 <data android:scheme="package" />
             </intent-filter>
         </receiver>
-        <receiver android:name=".GAEProxyWidgetProvider" >
+        <receiver android:name="org.gaeproxy.GAEProxyWidgetProvider" >
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
                 <action android:name="org.gaeproxy.GAEProxyWidgetProvider.PROXY_SWITCH_ACTION" />
@@ -154,6 +154,18 @@
             android:name="org.gaeproxy.zirco.providers.WeaveContentProvider"
             android:authorities="org.gaeproxy.zirco.providers.weavecontentprovider" >
         </provider>
+
+        <activity
+            android:name="org.gaeproxy.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:taskAffinity=".GAEProxy" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

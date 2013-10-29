@@ -85,6 +85,7 @@ import org.xbill.DNS.Record;
 import org.xbill.DNS.Resolver;
 import org.xbill.DNS.SimpleResolver;
 import org.xbill.DNS.Type;
+import org.yan.gaeproxy.R;
 
 public class GAEProxyService extends Service {
 

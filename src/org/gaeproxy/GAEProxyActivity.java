@@ -86,6 +86,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import org.gaeproxy.db.DatabaseHelper;
+import org.yan.gaeproxy.R;
 
 public class GAEProxyActivity extends PreferenceActivity implements
 		OnSharedPreferenceChangeListener {

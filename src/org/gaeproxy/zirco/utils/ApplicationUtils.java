@@ -34,7 +34,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.List;
-import org.gaeproxy.R;
+import org.yan.gaeproxy.R;
 import org.gaeproxy.zirco.model.items.BookmarkItem;
 import org.gaeproxy.zirco.model.items.HistoryItem;
 import org.gaeproxy.zirco.providers.BookmarksProviderWrapper;

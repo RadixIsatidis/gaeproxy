@@ -21,7 +21,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
-import org.gaeproxy.R;
+import org.yan.gaeproxy.R;
 
 /** Utilities for date / time management. */
 public class DateUtils {

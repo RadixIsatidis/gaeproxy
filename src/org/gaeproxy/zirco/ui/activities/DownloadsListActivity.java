@@ -22,7 +22,7 @@ import android.view.MenuItem;
 import android.widget.ImageButton;
 import android.widget.ProgressBar;
 import android.widget.TextView;
-import org.gaeproxy.R;
+import org.yan.gaeproxy.R;
 import org.gaeproxy.zirco.controllers.Controller;
 import org.gaeproxy.zirco.events.EventConstants;
 import org.gaeproxy.zirco.events.EventController;

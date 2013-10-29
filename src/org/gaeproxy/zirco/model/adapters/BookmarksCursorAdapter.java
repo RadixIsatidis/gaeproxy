@@ -26,7 +26,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.SimpleCursorAdapter;
-import org.gaeproxy.R;
+import org.yan.gaeproxy.R;
 
 /** Cursor adapter for bookmarks. */
 public class BookmarksCursorAdapter extends SimpleCursorAdapter {

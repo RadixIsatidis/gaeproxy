@@ -11,7 +11,7 @@ import java.net.URLDecoder;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
-import org.gaeproxy.R;
+import org.yan.gaeproxy.R;
 import org.gaeproxy.zirco.providers.BookmarksProviderWrapper;
 import org.gaeproxy.zirco.utils.ApplicationUtils;
 import org.gaeproxy.zirco.utils.DateUtils;

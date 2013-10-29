@@ -16,6 +16,7 @@ import java.io.FileDescriptor;
 import java.io.FileInputStream;
 import java.io.InputStream;
 import java.util.ArrayList;
+import org.yan.gaeproxy.R;
 
 public class Utils {
 

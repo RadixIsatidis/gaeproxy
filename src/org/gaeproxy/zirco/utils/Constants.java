@@ -16,7 +16,7 @@
 package org.gaeproxy.zirco.utils;
 
 import android.content.Context;
-import org.gaeproxy.R;
+import org.yan.gaeproxy.R;
 
 /** Defines constants. */
 public class Constants {

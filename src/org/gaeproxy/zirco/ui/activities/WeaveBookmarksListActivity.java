@@ -54,7 +54,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicReference;
 import org.emergent.android.weave.client.WeaveAccountInfo;
-import org.gaeproxy.R;
+import org.yan.gaeproxy.R;
 import org.gaeproxy.zirco.model.DbAdapter;
 import org.gaeproxy.zirco.model.adapters.WeaveBookmarksCursorAdapter;
 import org.gaeproxy.zirco.model.items.WeaveBookmarkItem;

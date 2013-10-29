@@ -39,7 +39,7 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.AdapterContextMenuInfo;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
-import org.gaeproxy.R;
+import org.yan.gaeproxy.R;
 import org.gaeproxy.zirco.model.adapters.BookmarksCursorAdapter;
 import org.gaeproxy.zirco.model.items.BookmarkItem;
 import org.gaeproxy.zirco.providers.BookmarksProviderWrapper;

@@ -25,7 +25,7 @@ import android.view.View;
 import android.view.Window;
 import android.widget.Button;
 import android.widget.TextView;
-import org.gaeproxy.R;
+import org.yan.gaeproxy.R;
 
 /** About dialog activity. */
 public class AboutActivity extends Activity {

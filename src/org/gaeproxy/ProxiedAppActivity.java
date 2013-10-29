@@ -40,6 +40,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import org.gaeproxy.db.App;
+import org.yan.gaeproxy.R;
 
 public class ProxiedAppActivity extends Activity implements OnCheckedChangeListener {
 

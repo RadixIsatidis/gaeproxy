@@ -17,7 +17,7 @@ package org.gaeproxy.zirco.ui.activities.preferences;
 
 import android.content.SharedPreferences.Editor;
 import android.preference.PreferenceManager;
-import org.gaeproxy.R;
+import org.yan.gaeproxy.R;
 import org.gaeproxy.zirco.utils.Constants;
 
 /** User agent preference chooser activity. */

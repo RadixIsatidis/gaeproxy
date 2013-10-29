@@ -18,7 +18,7 @@ package org.gaeproxy.zirco.ui.activities.preferences;
 import android.content.SharedPreferences.Editor;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-import org.gaeproxy.R;
+import org.yan.gaeproxy.R;
 import org.gaeproxy.zirco.utils.Constants;
 
 public class WeaveServerPreferenceActivity extends BaseSpinnerCustomPreferenceActivity {

@@ -26,7 +26,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
-import org.gaeproxy.R;
+import org.yan.gaeproxy.R;
 
 /**
  * Base class for a dialog activity for a preference which can have several

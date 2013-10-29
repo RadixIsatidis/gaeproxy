@@ -27,7 +27,7 @@ import android.widget.TextView;
 import java.util.Hashtable;
 import java.util.List;
 import java.util.Map;
-import org.gaeproxy.R;
+import org.yan.gaeproxy.R;
 import org.gaeproxy.zirco.model.items.DownloadItem;
 
 /** The adapter for the download UI list. */

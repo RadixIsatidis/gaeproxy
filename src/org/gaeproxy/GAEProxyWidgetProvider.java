@@ -51,6 +51,7 @@ import android.preference.PreferenceManager;
 import android.util.Log;
 import android.widget.RemoteViews;
 import android.widget.Toast;
+import org.yan.gaeproxy.R;
 
 public class GAEProxyWidgetProvider extends AppWidgetProvider {
 

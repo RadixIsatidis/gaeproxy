@@ -22,7 +22,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.SimpleCursorAdapter;
 import android.widget.TextView;
-import org.gaeproxy.R;
+import org.yan.gaeproxy.R;
 import org.gaeproxy.zirco.providers.WeaveColumns;
 
 public class WeaveBookmarksCursorAdapter extends SimpleCursorAdapter {
